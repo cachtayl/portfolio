@@ -2585,7 +2585,25 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
+	.circular_image {
+		width: 400px;
+		height: 400px;
+		border-radius: 50%;
+		overflow: hidden;
+		background-color: blue;
+		/* commented for demo
+		float: left;
+		margin-left: 125px;
+		margin-top: 20px;
+		*/
+		
+		/*for demo*/
+		display:inline-block;
+		vertical-align:middle;
+		}
+		.circular_image img{
+		width:100%;
+		}
 /* Image */
 
 	.image {
@@ -2597,7 +2615,6 @@ input, select, textarea {
 		.image img {
 			display: block;
 		}
-
 		.image.left, .image.right {
 			max-width: 40%;
 		}
