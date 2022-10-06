@@ -2632,7 +2632,8 @@ input, select, textarea {
 			display: block;
 		}
 		.image.left, .image.right {
-			max-width: 40%;
+			width: 30%;
+			height: 30%;
 		}
 
 			.image.left img, .image.right img {
@@ -2650,7 +2651,6 @@ input, select, textarea {
 			margin: 0 0 2rem 2rem;
 			top: 0.75rem;
 		}
-
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
